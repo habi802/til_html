@@ -1,25 +1,102 @@
 # Header 영역 HTML 작업해 보기
 
-header 영역이 있다.
-이 영역의 `내용`별 레이아웃을 먼저 고민해 보자.
-이때 사용하는 html 태그를 div라고 한다.
-
-<태그>내용</태그>
-<태그 속성="값">내용</태그>
-
-<div>내용</div>
-
-<div class="">내용</div>
-
-<a href="주소" target="">내용</a>
-<img src="이미지 주소" />
-
-div
-a
-img
-
-list 관련 태그
-
-- Order List ==> <ol></ol>
-- UnOrder List ==> <ul></ul>
-- List Item ==> <li></li>
+```html
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>나의 til</title>
+  </head>
+  <body>
+    <!-- 전체 레이아웃 -->
+    <div>
+      <!-- 상단 -->
+      <header class="header">
+        <div class="layout">
+          <!-- 상단의 위 -->
+          <div class="header_top">
+            <div class="header_top_left">
+              <!-- 로고 -->
+              <div class="logo">
+                <a href="http://www.interpark.com" target="_blank">
+                  <img src="images/logo.svg" alt="로고" title="인터파크" />
+                </a>
+              </div>
+              <!-- 제품 검색 -->
+              <div class="search">
+                <!-- 제품 검색 API 연동 -->
+                <form class="search_form">
+                  <input type="text" placeholder="제품을 검색해 주세요." />
+                  <input type="submit" value="검색" />
+                </form>
+              </div>
+            </div>
+            <div class="header_top_right">
+              <ul class="member">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- 상단의 아래 -->
+          <div class="header_bottom">
+            <div class="header_bottom_nav">
+              <ul class="nav">
+                <li><a href="#">홈</a></li>
+                <li><a href="#">투어</a></li>
+                <li><a href="#">티켓</a></li>
+              </ul>
+            </div>
+            <div class="header_bottom_eventmenu">
+              <ul class="coupon">
+                <li>
+                  <a href="#">
+                    해외여행쿠폰
+                    <img
+                      src="images/badge_hot.svg"
+                      alt="해외여행쿠폰"
+                      title="해외여행쿠폰"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    국내여행쿠폰
+                    <img
+                      src="images/badge_hot.svg"
+                      alt="국내여행쿠폰"
+                      title="국내여행쿠폰"
+                    />
+                  </a>
+                </li>
+                <li><a href="#">여행혜택존</a></li>
+                <li><a href="#">여행준비</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- 메인 -->
+      <main>
+        <div>
+          <!-- Event -->
+          <div></div>
+          <!-- Tour -->
+          <div></div>
+          <!-- Trip -->
+          <div></div>
+          <!-- Ticket -->
+          <div></div>
+          <!-- Live -->
+          <div></div>
+        </div>
+      </main>
+      <!-- 하단 -->
+      <footer>
+        <div></div>
+      </footer>
+    </div>
+  </body>
+</html>
+```
