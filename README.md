@@ -1,503 +1,108 @@
-# 메인 > 트립 영역
+# JS 적용
+
+- JS 는 크게 2가지로 분류됩니다.
+- Node 용과 Web 용으로 분류합니다.
+
+## JS 코딩 좋은 위치
+
+- 가장 좋은 자리는 html 이 완료되는 시점
+
+```js
+// html 의 document 가 모두 로드 되면 실행하기
+// html 의 이미지, 파일 등등 리소스가 준비되면 실행
+// 표준입니다.
+window.addEventListener("load", function () {});
+
+// html 만 로드 완료를 체크합니다.
+window.addEventListener("DOMContentLoaded", function () {});
+```
+
+## 요소(Element) 선택법
+
+```js
+// DOM 만 완성하면 됩니다. 기준으로 코드를 진행함.
+window.addEventListener("DOMContentLoaded", function () {
+  // 우리가 원하는 요소(Element) 를 선택하는 법?
+  // - Tag 를 선택하고 싶어요. (Tag Element)
+  this.document.getElementsByTagName("header");
+  this.document.getElementsByClassName("header");
+  // - CSS 선택자를 이용해서 선택하고 싶어요. (Css Selector)
+  this.document.querySelector(".header");
+  this.document.querySelectorAll(".header");
+  // - ID 선택자를 이용해서 선택하고 싶어요. (Id Selector)
+  this.document.getElementById("header");
+});
+```
+
+```js
+window.addEventListener("DOMContentLoaded", function () {
+  const header = this.document.querySelector(".header");
+  console.log(header);
+
+  const logo = this.document.querySelector(".logo");
+  console.log(logo);
+  const search = this.document.querySelector(".search");
+  console.log(search);
+  const member = this.document.querySelector(".header_top_right");
+  console.log(member);
+  const eventMenu = this.document.querySelector(".header_bottom_eventmenu");
+  console.log(eventMenu);
+});
+```
+
+## 다양한 이벤트의 이해
+
+- 웹 브라우저가 체크하는 변화를 `이벤트` 라고 함.
+- 이벤트 작성법 3가지
+
+### 1. 태그에 직접 이벤트 작성하기
 
 ```html
-<div class="tour">
-  <div class="section_top">
-    <h2 class="section_title">투어 특가</h2>
-    <span class="section_desc">마감 임박! 금주의 특가 여행 추천</span>
-  </div>
-  <div class="section_list">
-    <!-- Start 목록 영역 -->
-    <div class="section_category">
-      <ul class="section_category_bts">
-        <li><button>마감임박</button></li>
-        <li><button>패키지</button></li>
-        <li><button>국내숙소</button></li>
-        <li><button>해외숙소</button></li>
-        <li><button>투어/입장권</button></li>
-      </ul>
-    </div>
-    <div class="section_slide">
-      <!-- Start 추후 JSON 데이터 연동으로 변경 예정 -->
-      <div class="item">
-        <a href="#">
-          <img src="images/v3.jpg" alt="나트랑" title="나트랑" />
-          <span>나트랑</span>
-          <span>[10%쿠폰] 아동 동반 가족여행 강력 추천</span>
-          <p>
-            방콕/파타야 5일, 중대형기종(347석) 탑승, 24년 오픈 5성 윈덤 좀티엔
-            파타야, 마사지 2시간, 핵심일정 포함
-          </p>
-          <span><b>109,000</b>원~</span>
-        </a>
-      </div>
-      <!-- End 추후 JSON 데이터 연동으로 변경 예정 -->
-    </div>
-    <!-- End 목록 영역 -->
-  </div>
-  <div class="section_bts">
-    <a href="#">
-      투어 홈 바로가기
-      <img src="images/icon_linkArrow.svg" alt="더보기" title="더보기" />
-    </a>
-  </div>
-</div>
+<태그 on이벤트="코드"></태그>
+<header class="header" onclick="alert('안녕')"></header>
 ```
 
-# CSS
+### 2. 요소에 속성으로 이벤트 작성하기
 
-## 1. css 작성법 3가지
+```js
+요소.on이벤트 = function () {
+  코드;
+};
 
-- 작성법 3가지 중에 누가 최종적으로 적용되는가? (누가 힘이 센가?)
-
-### 1.1. inline 방식
-
-- html 태그에 직접 작성해 주는 방식
-
-```html
-<body style="background-color: skyblue; color: red;"></body>
+const header = this.document.querySelector(".header");
+header.onclick = function () {
+  alert("반가워!");
+};
 ```
 
-```html
-<style>
-  body {
-    background-color: hotpink;
-    color: red;
-  }
-</style>
+### 3. 요소에 이벤트 핸들러로 이벤트 작성하기(표준)
+
+```js
+요소.addEventListner("이벤트", function () {
+  코드;
+});
+header.addEventListener("click", function () {
+  alert("표준아, 반가워!");
+});
 ```
 
-### 1.2. link 방식
+### 4. 활용 빈도가 높은 `윈도우 이벤트`
 
-- file 로 작성해서 link 하는 방식 (경로/파일명.css)
+- `load`: html 의 document 가 모두 로드 되면 발생
+- `DOMContentLoaded`: DOM 만 로드 되면 발생
+- `resize`: 웹 브라우저 너비, 높이 변경 시 발생
+- `scroll`: 웹 브라우저에 스크롤이 일어나면 발생
 
-```html
-<link rel="stylesheet" href="css/common.css" />
-```
+### 5. 활용 빈도가 높은 `마우스 이벤트`
 
-- css 폴더/common.css 파일을 생성
+- `click`: 마우스 클릭(왼쪽)
+- `mouseenter`: 마우스 커서가 요소에 걸쳐지면
+- `mouseleave`: 마우스 커서가 요소에서 벗어나면
 
-```css
-body {
-  background-color: hotpink;
-  color: red;
-}
+### 6. 활용 빈도가 높은 `키보드 이벤트`
 
-div.wrap {
-  border: 5px solid black;
-}
+- `keyup`: 키보드에서 키 입력 후 이벤트
+- `keydown`: 키보드에서 키 입력 시 이벤트
+- `keypress`: 키보드에서 키 누르고 있으면 이벤트
 
-header {
-  background-color: yellow;
-}
-```
-
-### 1.3. @import 방식
-
-- css 파일에서 또 다른 css 파일을 참조하는 방식
-
-## 2. 모든 태그에 초기화 진행하기
-
-- 웹 브라우저마다 기본적인 css는 적용이 되어있음.
-- 그래서, 웹 브라우저마다 모양이 다르게 보인다.
-- 아래 내용은 기본 css 값으로 추천합니다.
-
-```css
-@charset "utf-8";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /* outline-style: none; */
-}
-```
-
-## 3. 선택하는 법 (selector)
-
-### 3.1. 태그 선택법
-
-```css
-태그 {
-}
-```
-
-- css/common.css 예제
-
-```css
-@charset "utf-8";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /* outline-style: none; */
-}
-
-/* 태그 선택 : 추천하는 각 태그 별 기본값 */
-a {
-  text-decoration: none;
-  color: #000000;
-}
-ul {
-  list-style: none;
-  padding: 100px;
-}
-html {
-  width: 100%;
-  /* 디자인 보고 수정 */
-  font-size: 12px;
-}
-body {
-  width: 100%;
-  font-size: 1rem;
-  /* 디자인 보고 수정 */
-  color: #000000;
-  /* 글꼴이 필요로 함. */
-}
-```
-
-### 3.2. 클래스 선택법
-
-```css
-태그.클래스명 {
-}
-```
-
-```css
-.클래스명 {
-}
-```
-
-### 3.3. 단계별 선택법
-
-```css
-태그 > 태그 > 태그 {
-}
-```
-
-```css
-.클래스 > 태그 > 태그 {
-}
-```
-
-### 3.4. 범위 선택법
-
-```css
-태그 태그 {
-}
-```
-
-```css
-.클래스 태그 {
-}
-```
-
-## 4. display의 이해
-
-### 4.1. display: block
-
-- 벽돌처럼 한 영역을 모두 차지한다.
-- 공간이 남더라도 절대로 양보하지 않음.
-- div, ul, li, h1~h6, p 태그 등은 default로 block이 적용되어짐.
-
-```html
-<div class="box_wrap">
-  <div class="box">A</div>
-  <div class="box">B</div>
-  <div class="box">C</div>
-  <div class="box">D</div>
-</div>
-```
-
-```css
-.box_wrap {
-  display: block;
-  border: 3px solid red;
-}
-.box {
-  display: block;
-  width: 50px;
-  border: 3px solid black;
-}
-```
-
-### 4.2. display: inline
-
-- 글자처럼 한줄에 배치가 가능하다.
-- 그러나 width, height 등이 적용 안됨.
-- img, span, b 태그 등은 default 로 inline이 적용되어짐.
-
-```css
-.box_wrap {
-  display: inline;
-  width: 500px;
-  height: 1000px;
-  border: 3px solid red;
-}
-.box {
-  display: inline;
-  width: 50px;
-  border: 3px solid black;
-}
-```
-
-### 4.3. display: inline-block
-
-- 글자처럼 한줄에 배치가 가능하다.
-- 그러나 width, height 등이 적용됨.
-- Enter 줄 내림 공백을 없애려면 font-size: 0 적용
-
-```css
-.box_wrap {
-  display: inline-block;
-  width: 500px;
-  height: 500px;
-  border: 3px solid red;
-  font-size: 0;
-}
-.box {
-  display: inline-block;
-  width: 50px;
-  border: 3px solid black;
-  font-size: 14px;
-}
-```
-
-### 4.4. block 을 유지하면서 inline 적용하기
-
-#### 4.4.1. overflow: hidden 으로 레이아웃 유지
-
-```css
-.box_wrap {
-  display: block;
-  border: 3px solid red;
-  overflow: hidden;
-}
-.box {
-  display: block;
-  width: 50px;
-  border: 3px solid black;
-  float: left;
-}
-```
-
-#### 4.4.2. clearboth 클래스 만들어서 레이아웃 유지
-
-```css
-.box_wrap {
-  display: block;
-  border: 3px solid red;
-}
-.clearboth::after {
-  content: "";
-  display: block;
-  width: 100%;
-  clear: both;
-}
-.box {
-  display: block;
-  width: 50px;
-  border: 3px solid black;
-  float: left;
-}
-```
-
-```html
-<div class="box_wrap clearboth"></div>
-```
-
-#### 4.4.3. height를 주어서 레이아웃 유지
-
-```css
-.box_wrap {
-  display: block;
-  border: 3px solid red;
-  height: 100px;
-}
-.box {
-  display: block;
-  width: 50px;
-  border: 3px solid black;
-  float: left;
-}
-```
-
-### 4.5. display: none
-
-- 화면에 내용을 안 보이게 함.
-- 실제로 태그가 없는 것처럼 작동함.
-- `js에서 태그를 찾아서 기능을 부여 못할 수도 있다.`
-
-```css
-.box_wrap {
-  display: block;
-  border: 3px solid red;
-  overflow: hidden;
-}
-.box {
-  display: none;
-  width: 50px;
-  border: 3px solid black;
-  float: left;
-}
-```
-
-### 4.6. 가능하면 flex 적극 도입
-
-- https://studiomeal.com/archives/197
-
-## 5. CSS 적용 우선 순위
-
-### 5.1. 태그 CSS가 만약 중복이라면
-
-- 1번 `인라인 스타일 시트는 가장 우선 적용`이 된다.
-
-```html
-<style>
-  div {
-    background-color: yellowgreen;
-  }
-</style>
-<div class="box_wrap" style="background-color: orange">안녕</div>
-```
-
-- 2번 `작성 순서가 마지막의 것이 적용`된다.
-
-```css
-div {
-  background-color: yellowgreen;
-}
-/* 아래에 작성했으므로 덮어씌움 */
-div {
-  background-color: orange;
-}
-```
-
-- 3번 `클래스가 우선순위가 높다.`
-
-```css
-.box_wrap {
-  background-color: hotpink;
-}
-div {
-  background-color: yellowgreen;
-}
-```
-
-- 4번 `클래스가 중복이라면 작성 순서가 나중이 우선권`
-
-```html
-<style>
-  .box_wrap {
-    background-color: hotpink;
-  }
-  .hi {
-    background-color: yellowgreen;
-  }
-</style>
-<div class="box_wrap hi">안녕</div>
-```
-
-- 5번 `아이디는 최우선권을 가진다.`
-
-```html
-<style>
-  #gogo {
-    background-color: brown;
-  }
-  .box_wrap {
-    background-color: hotpink;
-  }
-  .hi {
-    background-color: yellowgreen;
-  }
-</style>
-<div id="gogo" class="box_wrap hi">안녕</div>
-```
-
-- 6번 `단계 선택이 범위 선택보다 우선권을 가진다.`
-
-```html
-<style>
-  ul > li > a {
-    background-color: green;
-  }
-  ul a {
-    background-color: red;
-  }
-</style>
-<ul class="menu">
-  <li><a href="#">HTML</a></li>
-  <li><a href="#">CSS</a></li>
-  <li><a href="#">JS</a></li>
-</ul>
-```
-
-### 5.2. 우선 적용을 무조건 적용하기
-
-```html
-<style>
-  div {
-    background-color: yellow !important;
-  }
-</style>
-<div style="background-color: green">안녕</div>
-```
-
-### 5.3. 우선 순위 정리
-
-- 작성 순서를 고려함.
-  `태그 < 클래스 < 아이디 < 인라인`
-
-- 렌더링 과정을 고려함.
-  `태그 => 태그 구조 => 태그 css => 클래스 css => 인라인`
-
-- 웹 브라우저의 F12를 눌러 참조하자.
-- `important!` 는 정말 해결이 필요한 곳에만 활용
-
-## 6. 글꼴 설정
-
-- 반드시 글꼴 설정 후 작업이 진행되어야 합니다.
-- 글자의 종류와 글자 간의 간격, 행간의 간격, 글꼴의 크기 등이 너비, 높이 등의 단위가 됩니다.
-- body 셋팅을 위한 자료임.
-
-### 6.1. 글꼴 구하기
-
-- `웹 폰트`와 `로컬 폰트`의 구분 및 이해
-- [구글 폰트](https://fonts.google.com/)
-- [눈누](https://noonnu.cc/font_page/pick)
-- [깃허브](https://github.com/orioncactus/pretendard)
-- [아이폰 폰트](https://fontawesome.com/icons)
-
-### 6.2. 글꼴 활용하기
-
-- css/common.css 참조
-
-## 7. CSS 살펴보기
-
-- margin (영역 바깥으로의 여백)
-  - margin-top은 오류가 발생할 수 있습니다.
-
-## position 을 꼭 기억하자.
-
-### 1. 내가 정확하게 px 로 위치를 지정하고 싶다.
-
-- 아래처럼 할 때 정말 주의하세요.
-- 바깥 영역에 `position: relative` 가 있어야 해요.
-
-```css
-position: absolute;
-left: 0px;
-top: 0px;
-right: 0px;
-bottom: 0px;
-```
-
-### 2. 내가 웹 브라우저에 특정 위치를 고정하고 싶다.
-
-```css
-position: fixed;
-left: 0px;
-top: 0px;
-right: 0px;
-bottom: 0px;
-```
+### 7. 활용 빈도가 높은 Form 관련 이벤트 (추후 정리)
