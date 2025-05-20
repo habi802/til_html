@@ -1,9 +1,18 @@
 .header {
+  position: relative;
   width: 100%;
   background-color: #ffffff;
   border-bottom: 1px solid #ebebeb;
 }
+.header_down {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
 .header_top {
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -13,16 +22,27 @@
   margin-bottom: 30px; */
   margin: 20px 0;
 }
+.header_top_down {
+  margin: 0px;
+}
 .header_top_left {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+.header_top_right {
+  position: relative;
 }
 .logo > a > img {
   width: 152px;
   height: auto;
 }
 .search {
+}
+.search_down {
+  position: absolute;
+  left: 350px;
+  top: 10px;
 }
 .search_form {
   display: flex;
@@ -59,6 +79,11 @@
 .member {
   display: flex;
   gap: 20px;
+}
+.member_down {
+  position: absolute;
+  right: 0;
+  top: 25px;
 }
 .member > li > a {
   font-size: 12px;
