@@ -12,13 +12,13 @@
 // 표준입니다.
 window.addEventListener("load", function () {
   const wrap = document.querySelector(".wrap");
-  console.log(wrap);
+  //console.log(wrap);
 });
 
 window.addEventListener("load", function () {
-  console.log("안녕");
+  //console.log("안녕");
 });
 
 window.addEventListener("DOMContentLoaded", function () {
-  console.log("로딩 완료");
+  //console.log("로딩 완료");
 });
