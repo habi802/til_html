@@ -1,4 +1,5 @@
-window.addEventListener("DOMContentLoaded", function () {
+// 이미지 동의 리소스가 불러들여지면 그 때 이벤트를 실행하는것이 좋음
+window.addEventListener("load", function () {
   // api 주소
   const apiUrl = "http://127.0.0.1:5500/public/api/tour.json";
   // 현재 출력한 카테고리
@@ -9,6 +10,9 @@ window.addEventListener("DOMContentLoaded", function () {
   let cateNameArr = [];
   // 카테고리별 목록 배열
   let cateListArr = [];
+  // 투어 슬라이드 변수
+  let swTour;
+
   // api 호출 함수
   async function getData(_url, _fn) {
     try {
@@ -92,6 +96,64 @@ window.addEventListener("DOMContentLoaded", function () {
   // 카테고리 버튼에 현재 포커스 표현하기
   function activeCateFocus() {
     cateButtonArr[cateFocusIndex].classList.add("cate_focus");
+    makeTourListHtml();
+  }
+
+  // 목록 html 을 만든다.
+  function makeTourListHtml() {
+    console.log("어느 목록을 출력할 것인가? " + cateListArr[cateFocusIndex]);
+    // 1. html 태그 만들기
+    // 1.1. 어디다가 만들지? querySelector 찾아줌.
+    const swTourWrap = document.querySelector(".sw_tour .swiper-wrapper");
+    // 1.2. html 로 만들기
+    let html = "";
+    const listArr = cateListArr[cateFocusIndex];
+    listArr.forEach(function (item) {
+      const tag = `
+      <div class="swiper-slide">
+        <div class="item">
+          <a href="${item.link}">
+            <div class="item_image">
+              <img
+                src="${item.image}"
+                alt="${item.title}"
+                title="${item.title}"
+              />
+            </div>
+            <span class="item_name">${item.city}</span>
+            <div class="item_text">
+              <span class="item_coupon">
+                ${item.title}
+              </span>
+              <p class="item_desc">
+                ${item.content}
+              </p>
+              <span class="item_price"><b>${item.price}</b>원~</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      `;
+      html = html + tag;
+    });
+    swTourWrap.innerHTML = html;
+
+    // 2. 항상 슬라이드가 만들어져 있다면 삭제하고
+    if (swTour) {
+      // swiper 를 제거합니다. (swiper 사이트의 레퍼런스 참조)
+      swTour.destroy(true, true);
+    }
+
+    // 3. 슬라이드를 생성해야 합니다.
+    let swiper = new Swiper(".sw_tour", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      navigation: {
+        nextEl: ".tour_next",
+        prevEl: ".tour_prev",
+      },
+    });
   }
 
   // 함수 호출

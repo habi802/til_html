@@ -1,376 +1,227 @@
 [
-    {
-      "cate": "마감임박",
-      "list": [
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        }
-      ]
-    },
-    { "cate": "패키지", "list": [
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        }
-      ] },
-    { "cate": "국내숙소", "list": [
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        }
-      ] },
-    { "cate": "해외숙소", "list": [
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        }
-      ] },
-    { "cate": "투어/입장권", "list": [
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        },
-        {
-          "link": "#",
-          "image": "https://media.triple.guide/triple-cms/c_fill,f_auto,h_450,w_580/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.jpeg",
-          "city": "대만",
-          "title": "노쇼핑",
-          "content": "[베스트셀러]대만 4일/노쇼핑,예스지,핑시선 낭만열차 탑승,미식투어",
-          "price": "679,000"
-        }
-      ] }
-  ]
-  
+  {
+    "cate": "마감임박",
+    "list": [
+      {
+        "link": "#",
+        "image": "./api/tour/bf2b7ce772eb428e.jpg",
+        "city": "인천",
+        "title": "Forest Tower Business Deluxe King Room Only",
+        "content": "인스파이어 엔터테인먼트 리조트",
+        "price": "220,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/45b21e82-0ec5-4ed9-b567-ac85ef17bbb9.webp",
+        "city": "코타키나발루",
+        "title": "호핑투어&자유일정",
+        "content": "[기간한정특가] 코타키나발루 그란디스 슈페리어룸 3박5일",
+        "price": "269,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.webp",
+        "city": "시드니",
+        "title": "노팁노옵션,오페라하우스 내부 관광",
+        "content": "[NO팁/NO옵션][품격] 시드니 완전일주 6일 <전일정4성>",
+        "price": "1,599,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/a335f2f0_z.webp",
+        "city": "다낭",
+        "title": "2박전용/15%쿠폰/애프터눈티 포함 특가",
+        "content": "신라모노그램 다낭",
+        "price": "170,577"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/A1049211_4_707.jpg",
+        "city": "라오스",
+        "title": "블루라군+동굴튜빙 포함 ",
+        "content": "라오스 비엔티엔/방비엥 5일, 블루라군+동굴튜빙+카약,풍등 띄우기,특식3회",
+        "price": "329,000"
+      }
+    ]
+  },
+  {
+    "cate": "패키지",
+    "list": [
+      {
+        "link": "#",
+        "image": "./api/tour/A1033468_14_737.jpg",
+        "city": "방콕",
+        "title": "방콕 예약율 1위",
+        "content": "[출발확정] 방콕/파타야 5일, 왓아룬뷰 레스토랑 특식, 코끼리트래킹체험, 필수일정 포함",
+        "price": "209,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/d34b1446-9630-4c83-8b27-80a7a41987b6.webp",
+        "city": "오사카",
+        "title": "유니버셜 프리패스 포함",
+        "content": "[실속유니버셜] 오사카/나라/교토/유니버셜 4일 (트윈/전일)",
+        "price": "949,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/8add6138-ec84-4eeb-92a5-96c17024a806.webp",
+        "city": "대만",
+        "title": "디즈니랜드 포함",
+        "content": "상해+디즈니랜드 4일<노쇼핑/준4성호텔/시티투어>",
+        "price": "519,900"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/635955566178502438.avif",
+        "city": "사이판",
+        "title": "디즈니랜드 포함",
+        "content": "사이판 월드리조트 디럭스룸UP 4박5일 <전일정 호텔식(골드카드)/아일랜드관광>",
+        "price": "679,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/99f555aa-5470-4784-9e8e-d19ce3faee19.webp",
+        "city": "대만",
+        "title": "자유시간 포함",
+        "content": "[나이트투어+자유일정] 보라카이 헤난 파크 프리미어 3박4일",
+        "price": "419,000"
+      }
+    ]
+  },
+  {
+    "cate": "국내숙소",
+    "list": [
+      {
+        "link": "#",
+        "image": "./api/tour/62bc54c533644c56.jpg",
+        "city": "강원",
+        "title": "수페리어 트윈 (항구 전망) + 2인 조식",
+        "content": "카시아 속초 호텔",
+        "price": "242,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/9dc4f56a501644bd.jpg",
+        "city": "제주",
+        "title": "산 전망 스탠다드 트윈/더블+객실1인 인원추가비",
+        "content": "제주신라호텔",
+        "price": "275,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/6b67a8a0272e4c23.jpg",
+        "city": "충청",
+        "title": "S20 레스트리/타워 룸온리 특가",
+        "content": "제천 리솜 포레스트&레스트리",
+        "price": "213,600"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/85b67b71524047b6.jpg",
+        "city": "전라",
+        "title": "[루프탑 수영장 2인 특가] 디럭스 트윈 시티뷰",
+        "content": "라한호텔 전주",
+        "price": "95,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/6b21fa6778064acf.jpg",
+        "city": "강원",
+        "title": "디럭스 더블 룸온리 특가",
+        "content": "켄싱턴호텔 평창",
+        "price": "99,000"
+      }
+    ]
+  },
+  {
+    "cate": "해외숙소",
+    "list": [
+      {
+        "link": "#",
+        "image": "./api/tour/7e6e75e1-9c1d-4ed0-946f-4f45951f3b27.webp",
+        "city": "싱가포르",
+        "title": "클락키/클릭키역 도보 3분 거리 4성급 호텔!",
+        "content": "파라독스 싱가포르 머천트 코트 앳 클락키",
+        "price": "269,545"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/acc74ba3-888c-4094-ab72-256e2508b384.webp",
+        "city": "도쿄",
+        "title": "12%쿠폰+조식포함 특가 보유!",
+        "content": "힐튼 도쿄",
+        "price": "416,641"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/f1b28d59-1d3f-4ccf-9cd8-1b0eb0941ebb.webp",
+        "city": "괌",
+        "title": "10%쿠폰+아이맞춤테마 브레드이발소 객실 인기!",
+        "content": "롯데 호텔 괌",
+        "price": "244,474"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/8844dd02_z.webp",
+        "city": "푸꾸옥",
+        "title": "15%쿠폰+가족여행 추천 리조트!",
+        "content": "뉴월드 푸꾸옥 리조트",
+        "price": "265,271"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/0b82d4ec-f676-4d4a-b76c-313bdd3aaf40.webp",
+        "city": "세부",
+        "title": "세부 5성급 인기 럭셔리 휴양 리조트!",
+        "content": "샹그릴라 막탄 세부",
+        "price": "424,381"
+      }
+    ]
+  },
+  {
+    "cate": "투어/입장권",
+    "list": [
+      {
+        "link": "#",
+        "image": "./api/tour/358961c8-9ce3-4d56-8e6d-dcb67f41389c.webp",
+        "city": "경기",
+        "title": "5/1 개장 실내외어트랙션",
+        "content": "미들시즌 캐리비안베이 이용권(25/5/30~25/6/12)",
+        "price": "25,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/42cd3821-3efe-4ecf-aa33-d6e2f0113403.webp",
+        "city": "취리히",
+        "title": "스위스 필수 교통패스!",
+        "content": "[최저가] 스위스 트래블 패스 연속권",
+        "price": "179,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/9b1b994d-cf45-4b98-a0b7-5026d58bacfb.webp",
+        "city": "오사카",
+        "title": "바로 사용 가능한 즉시 확정 티켓",
+        "content": "[즉시확정/즉시발급] 오사카 우메다 헵파이브 관람차 티켓(QR입장)",
+        "price": "7,350"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/2835157c-2742-4a38-9620-1f579f6915e0.webp",
+        "city": "상해",
+        "title": "상해에서 만나는 주토피아!",
+        "content": "[상해]상하이 디즈니랜드 티켓",
+        "price": "55,608"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/e0ca9eef-916d-4583-88da-e6545a19e957.webp",
+        "city": "하와이",
+        "title": "쿠알로아랜치 최고 인기 투어",
+        "content": "[하와이] 쿠알로아랜치 - UTV랩터 2시간",
+        "price": "106,884"
+      }
+    ]
+  }
+]
