@@ -24,26 +24,3 @@
   object-fit: cover;
   display: block;
 }
-.slide_bt {
-  position: absolute;
-  top: 50%;
-  /* transform: translateY(-50%); */
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  cursor: pointer;
-
-  border: 1px solid #e6e6e6;
-  background-color: rgba(255, 255, 255, 0.85);
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.13);
-
-  z-index: 100;
-}
-.banner_left {
-  left: 0;
-  transform: translateX(-50%) translateY(-50%) rotateY(180deg);
-}
-.banner_right {
-  right: 0;
-  transform: translateX(-50%) translateY(-50%);
-}

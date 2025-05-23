@@ -147,8 +147,3 @@
 .section_bts > a > img {
   transform: translateY(1px);
 }
-
-/* swiper 버튼 비활성 시 표현 */
-.swiper-button-disabled {
-  display: none;
-}
