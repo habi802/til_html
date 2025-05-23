@@ -14,6 +14,8 @@ window.addEventListener("DOMContentLoaded", function () {
   const member = this.document.querySelector(".header_top_right");
   const eventMenu = this.document.querySelector(".header_bottom_eventmenu");
 
+  const main = this.document.querySelector(".main");
+
   // 윈도우세 스크롤이 일어나면 기능을 작동하겠다.
   this.window.addEventListener("scroll", function () {
     // 스크롤이 되었을 때 스크롤바의 Y 축의 상단 픽셀 위치값
@@ -32,6 +34,8 @@ window.addEventListener("DOMContentLoaded", function () {
       headerTop.classList.remove("header_top_down");
       search.classList.remove("search_down");
       member.classList.remove("member_down");
+
+      main.classList.remove("main_fixed");
     } else {
       //console.log("일부가 보여라");
       logo.style.display = "none";
@@ -40,6 +44,8 @@ window.addEventListener("DOMContentLoaded", function () {
       headerTop.classList.add("header_top_down");
       search.classList.add("search_down");
       member.classList.add("member_down");
+
+      main.classList.add("main_fixed");
     }
   });
 });
