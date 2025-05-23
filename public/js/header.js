@@ -1,12 +1,12 @@
 window.addEventListener("DOMContentLoaded", function () {
   // 아래 구문은 header 변수를 만들고 html (document) 에서 css 선택자로 값을 셋팅
   const header = this.document.querySelector(".header");
-  header.onclick = function () {
-    alert("반가워!");
-  };
-  header.addEventListener("click", function () {
-    alert("표준아, 반가워!");
-  });
+  // header.onclick = function () {
+  //   alert("반가워!");
+  // };
+  // header.addEventListener("click", function () {
+  //   alert("표준아, 반가워!");
+  // });
 
   const headerTop = this.document.querySelector(".header_top");
   const logo = this.document.querySelector(".logo");
@@ -30,22 +30,22 @@ window.addEventListener("DOMContentLoaded", function () {
       //console.log("모두 보여라");
       logo.style.display = "block";
       eventMenu.style.display = "block";
-      header.classList.remove("header_down");
+      // header.classList.remove("header_down");
       headerTop.classList.remove("header_top_down");
       search.classList.remove("search_down");
       member.classList.remove("member_down");
 
-      main.classList.remove("main_fixed");
+      // main.classList.remove("main_fixed");
     } else {
       //console.log("일부가 보여라");
       logo.style.display = "none";
       eventMenu.style.display = "none";
-      header.classList.add("header_down");
+      // header.classList.add("header_down");
       headerTop.classList.add("header_top_down");
       search.classList.add("search_down");
       member.classList.add("member_down");
 
-      main.classList.add("main_fixed");
+      // main.classList.add("main_fixed");
     }
   });
 });
