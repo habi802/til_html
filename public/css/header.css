@@ -1,5 +1,5 @@
 .header {
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
 
@@ -165,7 +165,10 @@
 
 /* 모바일 헤더 */
 .m_header {
+  padding: 0 20px;
   display: none;
+  justify-content: space-between;
+  align-content: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -174,6 +177,21 @@
   height: 54px;
   background-color: #fff;
   border-bottom: 1px solid #ebebeb;
+}
+.m_header_menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.m_header_menu a {
+  font-size: 20px;
+  font-weight: 700;
+}
+.m_header_search {
+  display: flex;
+  align-items: center;
+}
+.m_header_search a {
 }
 
 /* 반응형 작업 */
@@ -185,6 +203,6 @@
     display: none;
   }
   .m_header {
-    display: block;
+    display: flex;
   }
 }
