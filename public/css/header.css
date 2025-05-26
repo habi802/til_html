@@ -1,5 +1,9 @@
+main {
+  padding-top: 150px;
+}
+
 .header {
-  position: relative;
+  position: fixed;
   left: 0;
   top: 0;
 
