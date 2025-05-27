@@ -41,6 +41,46 @@
         "title": "블루라군+동굴튜빙 포함 ",
         "content": "라오스 비엔티엔/방비엥 5일, 블루라군+동굴튜빙+카약,풍등 띄우기,특식3회",
         "price": "329,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/bf2b7ce772eb428e.jpg",
+        "city": "인천",
+        "title": "Forest Tower Business Deluxe King Room Only",
+        "content": "인스파이어 엔터테인먼트 리조트",
+        "price": "220,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/45b21e82-0ec5-4ed9-b567-ac85ef17bbb9.webp",
+        "city": "코타키나발루",
+        "title": "호핑투어&자유일정",
+        "content": "[기간한정특가] 코타키나발루 그란디스 슈페리어룸 3박5일",
+        "price": "269,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/7d4e0967-a6b5-47ae-92a8-9c5c1773b4a4.webp",
+        "city": "시드니",
+        "title": "노팁노옵션,오페라하우스 내부 관광",
+        "content": "[NO팁/NO옵션][품격] 시드니 완전일주 6일 <전일정4성>",
+        "price": "1,599,000"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/a335f2f0_z.webp",
+        "city": "다낭",
+        "title": "2박전용/15%쿠폰/애프터눈티 포함 특가",
+        "content": "신라모노그램 다낭",
+        "price": "170,577"
+      },
+      {
+        "link": "#",
+        "image": "./api/tour/A1049211_4_707.jpg",
+        "city": "라오스",
+        "title": "블루라군+동굴튜빙 포함 ",
+        "content": "라오스 비엔티엔/방비엥 5일, 블루라군+동굴튜빙+카약,풍등 띄우기,특식3회",
+        "price": "329,000"
       }
     ]
   },
