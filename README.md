@@ -264,3 +264,10 @@ position: fixed 라고 셋팅하면 높이값이 반영이 안됩니다.
   margin: 0 auto;
 }
 ```
+
+# SCSS 셋팅
+
+- VSCode 에서 설치: `Live Sass Compiler`
+- 실습
+  - css 폴더/`test.scss 파일` 생성
+  - VSCode 하단에 `Watch Sass 를 클릭`
